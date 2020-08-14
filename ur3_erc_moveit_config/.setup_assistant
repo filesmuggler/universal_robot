@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_description
+    relative_path: urdf/ur3_robot_erc.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur3.srdf
+  CONFIG:
+    author_name: Krzysztof Stężała
+    author_email: krzysztof.stezala@student.put.poznan.pl
+    generated_timestamp: 1597401780
